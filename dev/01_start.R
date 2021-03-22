@@ -31,7 +31,6 @@ golem::set_golem_options()
 usethis::use_mit_license( name = "Phileas Condemine" )  # You can set another license here
 usethis::use_readme_rmd( open = TRUE )
 usethis::use_lifecycle_badge( "Experimental" )
-usethis::use_news_md( open = FALSE )
 
 ## Use git ----
 usethis::use_git()
@@ -45,8 +44,8 @@ golem::use_recommended_deps()
 
 ## Favicon ----
 # If you want to change the favicon (default is golem's one)
-golem::remove_favicon()
-golem::use_favicon() # path = "path/to/ico". Can be an online file. 
+# golem::remove_favicon()
+# golem::use_favicon() # path = "path/to/ico". Can be an online file. 
 
 ## Add helper functions ----
 golem::use_utils_ui()
